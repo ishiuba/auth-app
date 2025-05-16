@@ -11,6 +11,8 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import "./styles/Form.css";
+import "./styles/LoadingIndicator.css";
+
 
 function Logout() {
     localStorage.clear();
